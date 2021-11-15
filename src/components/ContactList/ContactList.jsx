@@ -40,6 +40,7 @@ const mapDispatchToProps = dispatch => ({
 
 export default connect(mapStateToProps, mapDispatchToProps)(ContactList);
 
+//------------------------------------------------
 // --- Another variant mapStateToProps ---
 
 // const mapStateToProps = state => {
@@ -48,3 +49,4 @@ export default connect(mapStateToProps, mapDispatchToProps)(ContactList);
 
 //   return { contacts: visibleContacts };
 // };
+//------------------------------------------------

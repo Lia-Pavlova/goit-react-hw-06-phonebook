@@ -18,6 +18,7 @@ export const filterContact = createAction(FILTER_CONTACT);
 
 export const deleteContact = createAction(DELETE_CONTACT);
 
+// -----------------------------------------------
 //--- Via 'redux' ---
 
 // export function addContact(text) {
@@ -31,3 +32,5 @@ export const deleteContact = createAction(DELETE_CONTACT);
 // export function deleteContact(id) {
 //   return { type: DELETE_CONTACT, payload: id };
 // }
+
+// ----------------------------------------------

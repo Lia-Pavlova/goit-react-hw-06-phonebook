@@ -33,6 +33,7 @@ const filter = createReducer('', {
 
 export default combineReducers({ items, filter });
 
+//------------------------------------------------
 //--- Via 'redux' ---
 
 // const items = (state = [], action) => {
@@ -59,3 +60,5 @@ export default combineReducers({ items, filter });
 // };
 
 //export default combineReducers({ items, filter });
+
+//------------------------------------------------

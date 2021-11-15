@@ -28,6 +28,7 @@ function ContactForm({ onSubmit }) {
     }
   };
 
+  //------------------------------------------------
   // --- Another variant handleChange ---
 
   // const handleNameChange = event => {
@@ -36,6 +37,8 @@ function ContactForm({ onSubmit }) {
   // const handleNumberChange = event => {
   //   setNumber(event.currentTarget.value);
   // };
+
+  //------------------------------------------------
 
   // --- add contact via button ---
 
